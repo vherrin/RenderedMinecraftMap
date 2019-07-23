@@ -23,11 +23,11 @@ var overviewerConfig = {
         "LOWERRIGHT": 2
     },
     "worlds": [
-        "world"
+        "family_world"
     ],
     "map": {
         "debug": true,
-        "cacheTag": "1563891989",
+        "cacheTag": "1563898208",
         "north_direction": "lower-left",
         "controls": {
             "pan": true,
@@ -41,14 +41,14 @@ var overviewerConfig = {
     },
     "tilesets": [
         {
-            "name": "Overviewer Render (lighting)",
+            "name": "Normal Render of Family World upper left",
             "zoomLevels": 8,
             "defaultZoom": 1,
             "maxZoom": 8,
-            "path": "world-lighting",
+            "path": "normalrender_upper-left",
             "base": "",
             "bgcolor": "#1a1a1a",
-            "world": "world",
+            "world": "family_world",
             "last_rendertime": 1563881780,
             "imgextension": "png",
             "isOverlay": false,
@@ -66,6 +66,87 @@ var overviewerConfig = {
                 -208
             ],
             "north_direction": 0
+        },
+        {
+            "name": "Normal Render of Family World upper right",
+            "zoomLevels": 8,
+            "defaultZoom": 1,
+            "maxZoom": 8,
+            "path": "normalrender_upper-right",
+            "base": "",
+            "bgcolor": "#1a1a1a",
+            "world": "family_world",
+            "last_rendertime": 1563881780,
+            "imgextension": "png",
+            "isOverlay": false,
+            "poititle": "Markers",
+            "showlocationmarker": true,
+            "center": [
+                -224,
+                96,
+                -208
+            ],
+            "minZoom": 0,
+            "spawn": [
+                -224,
+                96,
+                -208
+            ],
+            "north_direction": 1
+        },
+        {
+            "name": "Normal Render of Family World lower left",
+            "zoomLevels": 8,
+            "defaultZoom": 1,
+            "maxZoom": 8,
+            "path": "normalrender_lower-left",
+            "base": "",
+            "bgcolor": "#1a1a1a",
+            "world": "family_world",
+            "last_rendertime": 1563881780,
+            "imgextension": "png",
+            "isOverlay": false,
+            "poititle": "Markers",
+            "showlocationmarker": true,
+            "center": [
+                -224,
+                96,
+                -208
+            ],
+            "minZoom": 0,
+            "spawn": [
+                -224,
+                96,
+                -208
+            ],
+            "north_direction": 3
+        },
+        {
+            "name": "Normal Render of Family World lower right",
+            "zoomLevels": 8,
+            "defaultZoom": 1,
+            "maxZoom": 8,
+            "path": "normalrender_lower-right",
+            "base": "",
+            "bgcolor": "#1a1a1a",
+            "world": "family_world",
+            "last_rendertime": 1563881780,
+            "imgextension": "png",
+            "isOverlay": false,
+            "poititle": "Markers",
+            "showlocationmarker": true,
+            "center": [
+                -224,
+                96,
+                -208
+            ],
+            "minZoom": 0,
+            "spawn": [
+                -224,
+                96,
+                -208
+            ],
+            "north_direction": 2
         }
     ]
 };
